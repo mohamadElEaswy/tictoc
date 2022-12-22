@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'X & O Game',debugShowCheckedModeBanner: false,
+      title: 'X & O Game',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData.light(useMaterial3: true),
       themeMode: ThemeMode.dark,
       darkTheme: ThemeData.dark(useMaterial3: true),
